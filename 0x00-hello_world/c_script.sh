@@ -1,6 +1,6 @@
 #!/bin/bash
 read -p "Filename: " fname
-echo -e "#!/bin/bash/n" > $fname
+echo -e "#!/bin/bash\n" > $fname
 vi $fname
 chmod u+x $fname
 ./$fname
@@ -10,3 +10,4 @@ echo "$fname - $msg" >> README.md
 git commit -m "$msg"
 git push origin master
 clear
+./c_script.sh
