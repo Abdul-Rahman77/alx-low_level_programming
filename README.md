@@ -1,2 +1,2 @@
-# Description of all the files in this repo;
+# A C language programming project with alx;
 
