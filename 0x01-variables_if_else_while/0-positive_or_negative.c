@@ -5,7 +5,7 @@
 /**
 * main - determines whether a random number is +, - or 0
 *
-* return: exit 0 when program executes normally
+* Return: exit 0 when program executes normally
 */
 int main(void)
 {
