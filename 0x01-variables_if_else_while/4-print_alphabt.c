@@ -11,10 +11,8 @@ int main(void)
 
 	for (var = 'a'; var <= 'z'; var++)
 	{
-		if (var == 'e' || var == 'p')
-		{
+		if (var == 'e' || var == 'q')
 			continue;
-		}
 		putchar(var);
 	}
 	putchar('\n');

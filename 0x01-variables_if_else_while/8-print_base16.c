@@ -11,7 +11,7 @@ int main(void)
 
 	char alpha;
 
-	for (var = 48; var < 59; var++)
+	for (var = 48; var < 58; var++)
 	{
 		putchar(var);
 	}
