@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* main - Entry point
 * print - returns the output of a string
+* main - main entry point
+* str - string argument for print 
 * Return: 0
 */
-
 void print(const char *str)
 {
 	int i = 0;
@@ -16,7 +16,6 @@ void print(const char *str)
 		i++;
 	}
 	_putchar('\n');
-	return;
 }
 int main(void)
 {

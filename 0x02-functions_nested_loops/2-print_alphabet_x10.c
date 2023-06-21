@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* print_alphabet_x10 - derives an replicate lowercase alpha 10x
+* print_alphabet_x10 - derives and replicates lowercase alpha 10x
 */
 
-void print_alphabet_x10()
+void print_alphabet_x10(void)
 {
 	int i = 97;
 	int count = 0;
