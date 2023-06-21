@@ -1,8 +1,12 @@
 #!/bin/bash
 read -p "Filename: " fname
 vi $fname.c
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 $fname.c -o $fname.exe
-./$fname.exe
+read -p "_-main: " num
+cp 1-main.c $num-main.c
+vi $num-main.c
+
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 _putchar.c $num-main.c $fname.c -o $fname
+./$fname
 
 git add .
 read -p "Commit message: " msg
@@ -12,5 +16,3 @@ git push origin master
 
 clear
 ./c_files.sh
-
-
