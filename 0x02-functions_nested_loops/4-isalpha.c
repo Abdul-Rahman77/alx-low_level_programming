@@ -2,8 +2,8 @@
 
 /**
 * _isalpha - checks if a character is an alphabet
-* Return: 1 if character is a lower or uppercase
-* Return: 0 if character is not a lower or an uppercase
+* @c: An argument of type int fo function _isalpha
+* Return: 1 if character is a lower or uppercase and 0 if otherwise
 */
 
 int _isalpha(int c)

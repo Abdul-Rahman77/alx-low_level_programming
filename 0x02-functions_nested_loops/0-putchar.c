@@ -2,15 +2,16 @@
 
 /**
 * print - returns the output of a string
+* @str - string argument for print
+*
 * main - main entry point
-* str - string argument for print 
 * Return: 0
 */
 void print(const char *str)
 {
 	int i = 0;
 
-	while (str[i] != '\0')
+	while (i < 8)
 	{
 		_putchar(str[i]);
 		i++;
