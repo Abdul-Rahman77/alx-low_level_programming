@@ -1,6 +1,4 @@
-#include "main.h"
 #include "_putchar.c"
-#include <unistd.h>
 
 /**
 * alphabet - prints lowercase alphabets
@@ -8,7 +6,8 @@
 * Return: 0
 */
 
-void alphabet()
+void print_alphabet()
+#include <unistd.h>
 {
 	int i = 97;
 	while (i <= 122)
@@ -21,6 +20,6 @@ void alphabet()
 
 int main(void)
 {
-	alphabet();
+	print_alphabet();
 	return (0);
 }
