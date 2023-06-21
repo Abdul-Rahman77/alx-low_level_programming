@@ -1,15 +1,12 @@
 #include <unistd.h>
+#include "main.h"
+#include "_putchar.c"
 
 /**
 * main - Entry point
 * print - returns the output of a string
 * Return: 0
 */
-
-int _putchar(char c)
-{
-	return write(1, &c, 1);
-}
 
 void print(const char *str)
 {
