@@ -2,7 +2,7 @@
 
 /**
 * print_sign - determines if a number has a + or - sign
-* @n - Argument passed to the function print_sign
+* @n: Argument passed to the function print_sign
 * Return: 1 if n greater than 0, 0 if n is 0 and -1 if n less than 0
 */
 int print_sign(int n)

@@ -2,7 +2,7 @@
 
 /**
 * _islower - checks if a letter is of lowercase
-* @c - A parameter of type int
+* @c: A parameter of type int
 * Return: 0
 */
 

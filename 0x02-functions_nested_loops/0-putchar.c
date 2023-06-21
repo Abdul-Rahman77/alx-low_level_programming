@@ -2,9 +2,9 @@
 
 /**
 * print - returns the output of a string
-* @str - string argument for print
+* @str: string argument for print
 *
-* main - main entry point
+* main - entry point
 * Return: 0
 */
 void print(const char *str)
