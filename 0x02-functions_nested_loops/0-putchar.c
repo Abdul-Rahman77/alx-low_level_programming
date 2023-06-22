@@ -7,6 +7,12 @@
 * main - entry point
 * Return: 0
 */
+
+/**
+* main - entry point
+* Return: Always 0
+*/
+
 void print(const char *str)
 {
 	int i = 0;
