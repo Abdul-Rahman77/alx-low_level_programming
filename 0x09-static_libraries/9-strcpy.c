@@ -1,16 +1,25 @@
-#include <string.h>
+#include "main.h"
 
-char *_strcpy(char *dest, char *src) {
-	 char *original_dest = dest; // Keeping a copy of the original destination pointer
+/**
+ * char *_strcpy - a function that copies the string pointed to by src
+ * @dest: copy to
+ * @src: copy from
+ * Return: string
+ */
+char *_strcpy(char *dest, char *src)
+{
+	int l = 0;
+	int x = 0;
 
-    // Copy characters from src to dest until reaching the end of src ('\0')
-    while (*src != '\0') {
-        *dest = *src; // Copy character
-        dest++;      // Move dest pointer to the next position
-        src++;       // Move src pointer to the next position
-    }
-
-    *dest = '\0'; // Append the null character to the end of dest to terminate the string
-
-    return original_dest; // Return the original destination pointer
+	while (*(src + l) != '\0')
+	{
+		l++;
+	}
+	for ( ; x < l ; x++)
+	{
+		dest[x] = src[x];
+	}
+	dest[l] = '\0';
+	return (dest);
 }
+
